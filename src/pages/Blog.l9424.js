@@ -1,10 +1,13 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+import wixSeo from 'wix-seo';
 
 $w.onReady(function () {
-    // Write your JavaScript here
-
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+    wixSeo.title = "Blog | National Labs - SpotCheck Plus Insights";
+    wixSeo.metaTags = [
+        { "name": "description", "content": "Insights on dried blood spot testing, PEth alcohol biomarkers, and SpotCheck Plus from National Labs. Guides, comparisons, and best practices for clinical labs." },
+        { "property": "og:title", "content": "Blog | National Labs" },
+        { "property": "og:description", "content": "Insights on dried blood spot testing, PEth alcohol biomarkers, and SpotCheck Plus from National Labs." },
+        { "property": "og:type", "content": "website" },
+        { "property": "og:site_name", "content": "National Labs" },
+        { "property": "og:url", "content": "https://www.nationallabs.com/blog" }
+    ];
 });

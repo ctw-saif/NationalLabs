@@ -1,10 +1,13 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+import wixSeo from 'wix-seo';
 
 $w.onReady(function () {
-    // Write your JavaScript here
-
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+    wixSeo.title = "SpotCheck Plus for Substance Abuse | National Labs";
+    wixSeo.metaTags = [
+        { "name": "description", "content": "See how SpotCheck Plus helps substance abuse treatment programs monitor 65+ drugs and alcohol with one simple dried blood spot test. Request a demo from National Labs." },
+        { "property": "og:title", "content": "SpotCheck Plus for Substance Abuse | National Labs" },
+        { "property": "og:description", "content": "SpotCheck Plus helps substance abuse treatment programs monitor 65+ drugs and alcohol with one simple dried blood spot test." },
+        { "property": "og:type", "content": "website" },
+        { "property": "og:site_name", "content": "National Labs" },
+        { "property": "og:url", "content": "https://www.nationallabs.com/spotcheck-demo-4substance" }
+    ];
 });
