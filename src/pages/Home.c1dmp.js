@@ -1,7 +1,7 @@
 import wixSeo from 'wix-seo';
 
 $w.onReady(function () {
-    wixSeo.title = "National Labs | SpotCheck Plus Dried Blood Spot Testing | Hayward CA";
+    wixSeo.title = "SpotCheck Plus Dried Blood Spot Testing | National Labs";
     wixSeo.metaTags = [
         { "name": "description", "content": "National Labs in Hayward, CA delivers advanced toxicology and PEth alcohol testing through SpotCheck Plus, the industry's first all-in-one dried blood spot solution." },
         { "name": "robots", "content": "index, follow" },
