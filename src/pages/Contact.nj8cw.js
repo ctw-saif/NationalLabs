@@ -8,6 +8,8 @@ $w.onReady(function () {
         { "property": "og:description", "content": "Contact National Labs in Hayward, CA for toxicology testing, SpotCheck Plus demos, billing inquiries, and clinical lab partnership opportunities." },
         { "property": "og:type", "content": "website" },
         { "property": "og:site_name", "content": "National Labs" },
-        { "property": "og:url", "content": "https://www.nationallabs.com/contact" }
+        { "property": "og:url", "content": "https://www.nationallabs.com/contact" },
+        { "property": "og:image", "content": "https://static.wixstatic.com/media/1afc8c_2f49bd8ca8d74941ba28f279d6411955~mv2.jpg" },
+        { "property": "og:image:alt", "content": "Contact National Labs for toxicology and SpotCheck Plus testing" }
     ];
 });

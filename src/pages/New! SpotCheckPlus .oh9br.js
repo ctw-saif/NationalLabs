@@ -8,6 +8,8 @@ $w.onReady(function () {
         { "property": "og:description", "content": "The industry's first all-in-one dried blood spot solution — combines PEth alcohol and toxicology testing into one simple kit. Detects 65+ substances." },
         { "property": "og:type", "content": "website" },
         { "property": "og:site_name", "content": "National Labs" },
-        { "property": "og:url", "content": "https://www.nationallabs.com/spotcheckplus" }
+        { "property": "og:url", "content": "https://www.nationallabs.com/spotcheckplus" },
+        { "property": "og:image", "content": "https://static.wixstatic.com/media/1afc8c_c702976755ac4f6691a6de51e96a1bf9f000.jpg" },
+        { "property": "og:image:alt", "content": "SpotCheck Plus all-in-one dried blood spot testing kit by National Labs" }
     ];
 });

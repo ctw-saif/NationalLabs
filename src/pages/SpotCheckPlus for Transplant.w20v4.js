@@ -8,6 +8,8 @@ $w.onReady(function () {
         { "property": "og:description", "content": "Reliable PEth alcohol monitoring for transplant programs through a simple dried blood spot test." },
         { "property": "og:type", "content": "website" },
         { "property": "og:site_name", "content": "National Labs" },
-        { "property": "og:url", "content": "https://www.nationallabs.com/spotcheck-transplant-demo" }
+        { "property": "og:url", "content": "https://www.nationallabs.com/spotcheck-transplant-demo" },
+        { "property": "og:image", "content": "https://static.wixstatic.com/media/1afc8c_c702976755ac4f6691a6de51e96a1bf9f000.jpg" },
+        { "property": "og:image:alt", "content": "SpotCheck Plus for transplant programs — PEth alcohol monitoring" }
     ];
 });
