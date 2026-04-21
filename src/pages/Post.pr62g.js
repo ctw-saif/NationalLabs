@@ -24,6 +24,16 @@ const POSTS = {
         title: "What is PEth? Phosphatidylethanol Alcohol Biomarker | National Labs",
         headline: "What is PEth? The Direct Alcohol Biomarker Explained",
         description: "PEth (phosphatidylethanol) is a direct alcohol biomarker that detects consumption for up to 30 days. Learn how PEth testing works and why it matters."
+    },
+    "discover-spotcheck-solutions": {
+        title: "Discover SpotCheck Solutions | National Labs",
+        headline: "Discover SpotCheck Solutions",
+        description: "Founder Ron Perkes on how SpotCheck Solutions is redefining drug and alcohol monitoring with painless finger-prick testing, 65+ substances, and results in 24-36 hours."
+    },
+    "founder-s-story": {
+        title: "Founder's Story | SpotCheck Plus by National Labs",
+        headline: "Founder's Story: Ron Perkes on Building SpotCheck Plus",
+        description: "Meet Ron Perkes, founder of National Labs, and the story behind SpotCheck Plus, the all-in-one dried blood spot toxicology and PEth alcohol testing solution."
     }
 };
 
