@@ -57,22 +57,45 @@ $w.onReady(function () {
         metaTags.push({ "property": "og:title", "content": postData.title });
         metaTags.push({ "property": "og:description", "content": postData.description });
 
-        wixSeo.setStructuredData([{
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": postData.headline,
-            "description": postData.description,
-            "image": DEFAULT_OG_IMAGE,
-            "url": currentUrl,
-            "publisher": {
-                "@type": "Organization",
+        wixSeo.setStructuredData([
+            {
+                "@context": "https://schema.org",
+                "@type": "MedicalBusiness",
+                "@id": "https://www.nationallabs.com/#organization",
                 "name": "National Labs",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": DEFAULT_OG_IMAGE
+                "url": "https://www.nationallabs.com",
+                "logo": "https://static.wixstatic.com/media/1afc8c_2f49bd8ca8d74941ba28f279d6411955~mv2.jpg",
+                "image": "https://static.wixstatic.com/media/1afc8c_2f49bd8ca8d74941ba28f279d6411955~mv2.jpg",
+                "description": "National Labs in Hayward, CA delivers advanced toxicology and PEth alcohol testing through SpotCheck Plus, the industry's first all-in-one dried blood spot solution.",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "24301 Southland Dr, Suite 307",
+                    "addressLocality": "Hayward",
+                    "addressRegion": "CA",
+                    "postalCode": "94545",
+                    "addressCountry": "US"
+                },
+                "medicalSpecialty": "Pathology"
+            },
+            {
+                "@context": "https://schema.org",
+                "@type": "Article",
+                "headline": postData.headline,
+                "description": postData.description,
+                "image": DEFAULT_OG_IMAGE,
+                "url": currentUrl,
+                "mainEntityOfPage": currentUrl,
+                "publisher": {
+                    "@type": "Organization",
+                    "@id": "https://www.nationallabs.com/#organization",
+                    "name": "National Labs",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": DEFAULT_OG_IMAGE
+                    }
                 }
             }
-        }]);
+        ]);
     }
 
     wixSeo.metaTags = metaTags;
