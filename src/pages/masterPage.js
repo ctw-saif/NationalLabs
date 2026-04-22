@@ -19,7 +19,9 @@ $w.onReady(function () {
                 "postalCode": "94545",
                 "addressCountry": "US"
             },
-            "medicalSpecialty": "Pathology"
+            "medicalSpecialty": "https://schema.org/Pathology",
+            "telephone": "+1-510-732-9909",
+            "priceRange": "$$"
         }
     ]);
 });
