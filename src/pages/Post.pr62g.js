@@ -75,7 +75,6 @@ $w.onReady(function () {
                     "postalCode": "94545",
                     "addressCountry": "US"
                 },
-                "medicalSpecialty": "https://schema.org/Pathology",
                 "telephone": "+1-510-732-9909",
                 "priceRange": "$$"
             },
@@ -87,6 +86,12 @@ $w.onReady(function () {
                 "image": DEFAULT_OG_IMAGE,
                 "url": currentUrl,
                 "mainEntityOfPage": currentUrl,
+                "author": {
+                    "@type": "Organization",
+                    "@id": "https://www.nationallabs.com/#organization",
+                    "name": "National Labs",
+                    "url": "https://www.nationallabs.com"
+                },
                 "publisher": {
                     "@type": "Organization",
                     "@id": "https://www.nationallabs.com/#organization",
